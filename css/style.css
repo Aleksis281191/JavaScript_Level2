@@ -21,14 +21,12 @@ body{
 }
 
 .main-content{
-    width: 100%;
-    padding: 50px 0;
+    width: 100%;     
+    padding: 50px;
     box-sizing: border-box;
     background-color: #E5399E;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .goods-list{
@@ -40,6 +38,7 @@ body{
     border: 2px solid black;
     padding-bottom: 20px;
     width: 300px;
+    max-height: 389px;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,4 +67,33 @@ body{
     color: #ffff;
     border-radius: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#goods-list-section{
+    display: none;
+    width: 700px;
+    background-color: #ffff;
+    position: initial; 
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;    
+}
+
+.goods-list__product-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.goods-list__product-box__name{
+    min-width: 250px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+    box-sizing: border-box;
 }
